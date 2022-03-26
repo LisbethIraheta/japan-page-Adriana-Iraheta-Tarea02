@@ -1,4 +1,3 @@
-from email import message
 from utils.db import db
 
 class Messages(db.Model):
@@ -13,3 +12,6 @@ class Messages(db.Model):
         self.lastname = lastname
         self.email = email
         self.message = message
+        
+    def __repr__(self) -> str:
+        return f"Messages({self.id}, {self.firstname}, '{self.lastname}', '{self.email}', '{self.message}')"
