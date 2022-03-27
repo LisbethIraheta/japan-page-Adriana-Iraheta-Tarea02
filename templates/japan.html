@@ -57,7 +57,99 @@
             <div class="imagen_geisha">
                 <img src="{{ url_for('static', filename='imagenes/jonge mooie echte geisha in kimono met sakura en decoratie.jpg')}}"/>
             </div>
-    </main>
+        </section>
 
+        <!--Código del carrusel de fotos-->
+        <section id="seccion_3" class="carrusel">
+            <div class="container_3">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/mt-fuji-anadolu.jpg')}} " style="width:100%">
+                    <div class="text">El Monte Fuji, el pico más alto de todo Japón</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/3908_top.jpg')}}" style="width:100%">
+                    <div class="text">Templo Kinkaku-ji (o Rokuon-ji) en Kioto</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/IMG_1105HDR-Edit-Edit-Edit-Edit-Edit.jpg')}}" style="width:100%">
+                    <div class="text">El santuario sintoísta Itsukushima</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/930x0_pagekidsfamily_2_865857.jpg')}}" style="width:100%">
+                    <div class="text">Hakone Open Air Museum</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/6826733651_da378ffb92_z.jpg')}}" style="width:100%">
+                    <div class="text">Preparativos para la ceremonia del té</div>
+                </div>
+              
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/Samurai-armor.jpg')}}" style="width:100%">
+                    <div class="text">Exhibición de armaduras samurái</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/studio-ghibli-museum-virtual-tour-01.jpg')}}" style="width:100%">
+                    <div class="text">Museo Ghibli en Inokashira Park</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/623c460ee50a2382521520159d1715cf.jpg')}}" style="width:100%">
+                    <div class="text">Festival de los cerezos del castillo de Fukuoka (parque Maizuru)  </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/a0001911_parts_5a8bd049f3aeb.jpg')}}" style="width:100%">
+                    <div class="text">Takoyaki, se acostumbra comerlo en festivales (comida callejera) </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="{{ url_for('static', filename='imagenes/img_index_002.jpg')}}" style="width:100%">
+                    <div class="text">Tienda Jump Shop, vende mercancía de mangas famosos de la revista Shounen Jump</div>
+                </div>
+
+
+                <!-- Código de los botones para pasar las fotos -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+              <br>
+              
+              <!-- Código de los puntos del carrusel -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                </div>
+            
+        </section>
+
+
+
+
+
+    </main>
+    <script src="{{url_for('static', filename='carrusel.js')}}"></script>
 </body>
 </html>
