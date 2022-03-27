@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Manrope:wght@200;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,800;1,500;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Manrope', 'Fira Sans Condensed';
+}
+
+/*Parte de la barra de navegación*/
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.container_1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    max-width: 1600 px;
+    margin: 0 auto;
+    padding-left: 128 px;
+    padding-right: 128 px;
+
+    color: #FFF;
+    background-color: #717171;
+    text-decoration: none;
+}
+
+.link_barra{
+    font-family: Manrope;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Fira Sans Condensed' ;
+    font-weight: 900;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 20px;
+}
+
+/* Parte del banner de inicio */
+.parrafo{
+    padding-left: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+section.banner-inicio{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-image: url(../imagenes/country_image_Japan1.jpg);
+    background-size: cover;
+}
+
+h1.parte1{
+
+    font-family: 'Fira Sans Condensed';
+    font-size: 70px;
+    font-weight: bold;
+}
+
+span.parte2{
+    font-family: 'Fira Sans Condensed';
+    color: #FFF;
+    background-color: #f80000;
+    font-weight: bold;
+    font-size: 70px;
+    opacity: 90%;
+}
+
+h3.parte3{
+    color: #FFF;
+    font-family: 'Barlow Condensed';
+    font-size: 25px
+}
