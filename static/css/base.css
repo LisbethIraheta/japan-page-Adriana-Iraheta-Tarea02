@@ -321,4 +321,43 @@ p.direcciones{
     padding: 10px;
     font-family: "Fira Sans Condensed";
     font-size: 16px;
-}s
+}
+
+/* Sección de mensajes */
+section.mensajes{
+    margin: auto 0;
+    padding-left: 200px;
+    padding-right: 40px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-image: url(../imagenes/204466.jpg);
+    background-size: cover;
+}
+
+h1.mensajes{
+    margin-top: 80px;
+    background-color: #FFF;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 0;
+
+    font-family: 'Barlow Condensed';
+    font-size: 50px;
+    text-align: center;
+    color: #717171;
+}
+
+h3.mensajes{
+    padding-top: 20px;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    font-family: 'Manrope';
+    text-align: center;
+    font-size: 24px;
+}
