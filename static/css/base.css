@@ -96,3 +96,55 @@ h3.parte3{
     font-family: 'Barlow Condensed';
     font-size: 25px
 }
+
+
+/*Parte de la introducción*/
+section.introduccion{
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(../imagenes/12304.jpg);
+    background-size: cover;
+}
+
+h1.titulo_intro{
+    margin-top: 120px;
+    background-color: #fffed1;
+    margin-left: 80px;
+
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+
+    font-family: 'Barlow Condensed';
+    font-size: 50px;
+    text-align: center;
+
+
+}
+p.presentacion{
+    background-color: #fffed1;
+    margin-left: 80px;
+
+    margin-bottom: 80px;
+    padding: 30px 30px;
+
+    font-family: 'Manrope';
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.imagen_geisha{
+    width: 300px;
+    height: 500px;
+    margin-top: 120px;
+    margin-right: 80px;
+    vertical-align: middle;
+}
