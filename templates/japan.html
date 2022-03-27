@@ -145,6 +145,22 @@
             
         </section>
 
+        <!--Código form mensajes-->
+        <section class="mensajes">
+            <div class="container-4">
+                
+                <h1 class="mensajes">¿Tienes dudas?</h1>
+                <br>
+                <h3 class="mensajes">Puedes dejarme tus dudas y comentarios en el siguiente espacio</h3>
+                <br>
+                <br>
+                {% extends 'form.html' %}
+                {% block form%}
+                
+            </div>
+
+        </section>
+
         <!--Código sobre mí-->
         <section class="sobre-mi">
             <div class="container5">
@@ -185,5 +201,6 @@
 
     </main>
     <script src="{{url_for('static', filename='carrusel.js')}}"></script>
+            {% endblock %}
 </body>
 </html>

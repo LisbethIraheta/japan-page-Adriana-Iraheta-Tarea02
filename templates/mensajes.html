@@ -7,6 +7,17 @@
     <title>Mensajes</title>
 </head>
 <body>
-    
+<h1>Mensajes recibidos</h1>
+<div>
+    {% for message in messages %}
+    <div>
+        <p>{{message.firstname }}</p>
+        <p>{{message.lastname }}</p>
+        <p>{{message.email }}</p>
+        <p>{{message.message }}</p>
+
+    </div>
+    {% endfor %}
+</div>
 </body>
 </html>
